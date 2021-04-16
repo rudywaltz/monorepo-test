@@ -1,0 +1,91 @@
+0 silly argv {
+0 silly argv   _: [ 'version' ],
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': 'node_modules/.bin/lerna'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath /Users/dbarkoczi/works/monorepo-test
+3 info versioning independent
+4 silly isAnythingCommitted
+5 verbose isAnythingCommitted 1
+6 silly getCurrentBranch
+7 verbose currentBranch main
+8 silly remoteBranchExists
+9 silly isBehindUpstream
+10 silly isBehindUpstream main is behind origin/main by 0 commit(s) and ahead by 4
+11 silly hasTags
+12 verbose hasTags true
+13 silly git-describe.sync "4983d2e" => {"refCount":"9","sha":"4983d2e","isDirty":false}
+14 info Assuming all packages changed
+15 verbose updated rudywaltz-test-npm
+16 verbose updated rudywaltz-test-npm2
+17 verbose git-describe undefined => "4983d2e"
+18 silly git-describe parsed => {"refCount":"9","sha":"4983d2e","isDirty":false}
+19 silly independent for rudywaltz-test-npm at /Users/dbarkoczi/works/monorepo-test/projects/rudywaltz-test-npm
+20 verbose getChangelogConfig using preset "conventional-changelog-angular"
+21 silly npa Result {
+21 silly npa   type: 'tag',
+21 silly npa   registry: true,
+21 silly npa   where: undefined,
+21 silly npa   raw: 'conventional-changelog-angular',
+21 silly npa   name: 'conventional-changelog-angular',
+21 silly npa   escapedName: 'conventional-changelog-angular',
+21 silly npa   scope: undefined,
+21 silly npa   rawSpec: '',
+21 silly npa   saveSpec: null,
+21 silly npa   fetchSpec: 'latest',
+21 silly npa   gitRange: undefined,
+21 silly npa   gitCommittish: undefined,
+21 silly npa   hosted: undefined
+21 silly npa }
+22 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-angular"
+23 info getChangelogConfig Successfully resolved preset "conventional-changelog-angular"
+24 verbose independent increment 0.0.1 by minor
+25 silly independent for rudywaltz-test-npm2 at /Users/dbarkoczi/works/monorepo-test/projects/rudywaltz-test-npm2
+26 verbose independent increment 0.0.1 by minor
+27 info execute Skipping releases
+28 silly lifecycle No script for "preversion" in "monorepo-test", continuing
+29 silly lifecycle No script for "preversion" in "rudywaltz-test-npm", continuing
+30 silly lifecycle No script for "preversion" in "rudywaltz-test-npm2", continuing
+31 silly lifecycle No script for "version" in "rudywaltz-test-npm2", continuing
+32 silly independent for rudywaltz-test-npm2 at /Users/dbarkoczi/works/monorepo-test/projects/rudywaltz-test-npm2
+33 silly lifecycle No script for "version" in "rudywaltz-test-npm", continuing
+34 silly independent for rudywaltz-test-npm at /Users/dbarkoczi/works/monorepo-test/projects/rudywaltz-test-npm
+35 silly independent writing new entry: "# 0.1.0 (2021-04-16)\n\n\n### Features\n\n* add 2 lib ([6ea4f41](https://github.com/rudywaltz/monorepo-test/commit/6ea4f4132e5969bc8fac2d392be5e7dc3bd699b0))\n* add workflow ([0422969](https://github.com/rudywaltz/monorepo-test/commit/042296983f9361bed1618eb7457404e7b3caaf1a))\n\n\n\n"
+36 silly independent writing new entry: "# 0.1.0 (2021-04-16)\n\n\n### Features\n\n* add 2 lib ([6ea4f41](https://github.com/rudywaltz/monorepo-test/commit/6ea4f4132e5969bc8fac2d392be5e7dc3bd699b0))\n* modify ([c7ebe93](https://github.com/rudywaltz/monorepo-test/commit/c7ebe932743a03bc15d819aaf95150f2beb1ff99))\n* modify one lib ([0746297](https://github.com/rudywaltz/monorepo-test/commit/0746297e691ae9e8d6d36ba6deee253ef18b80c9))\n\n\n\n"
+37 verbose independent wrote /Users/dbarkoczi/works/monorepo-test/projects/rudywaltz-test-npm2/CHANGELOG.md
+38 verbose independent wrote /Users/dbarkoczi/works/monorepo-test/projects/rudywaltz-test-npm/CHANGELOG.md
+39 silly lifecycle No script for "version" in "monorepo-test", continuing
+40 silly gitAdd [
+40 silly gitAdd   'projects/rudywaltz-test-npm2/package.json',
+40 silly gitAdd   'projects/rudywaltz-test-npm2/package-lock.json',
+40 silly gitAdd   'projects/rudywaltz-test-npm/package.json',
+40 silly gitAdd   'projects/rudywaltz-test-npm/package-lock.json',
+40 silly gitAdd   'projects/rudywaltz-test-npm2/CHANGELOG.md',
+40 silly gitAdd   'projects/rudywaltz-test-npm/CHANGELOG.md'
+40 silly gitAdd ]
+41 silly gitCommit chore(release): release
+41 silly gitCommit
+41 silly gitCommit  - rudywaltz-test-npm@0.1.0
+41 silly gitCommit  - rudywaltz-test-npm2@0.1.0
+42 verbose git [
+42 verbose git   'commit',
+42 verbose git   '-F',
+42 verbose git   '/private/var/folders/0x/mg21mwbx6wz431kgfzfdybx80000gp/T/5b5b9fd8-1185-4e58-bfd8-ba17108d0b4e/lerna-commit.txt'
+42 verbose git ]
+43 silly gitTag rudywaltz-test-npm@0.1.0
+44 verbose git [ 'tag', 'rudywaltz-test-npm@0.1.0', '-m', 'rudywaltz-test-npm@0.1.0' ]
+45 silly gitTag rudywaltz-test-npm2@0.1.0
+46 verbose git [
+46 verbose git   'tag',
+46 verbose git   'rudywaltz-test-npm2@0.1.0',
+46 verbose git   '-m',
+46 verbose git   'rudywaltz-test-npm2@0.1.0'
+46 verbose git ]
+47 error Error: Command failed with exit code 128: git tag rudywaltz-test-npm@0.1.0 -m rudywaltz-test-npm@0.1.0
+47 error fatal: tag 'rudywaltz-test-npm@0.1.0' already exists
+47 error     at makeError (/Users/dbarkoczi/works/monorepo-test/node_modules/@lerna/child-process/node_modules/execa/lib/error.js:59:11)
+47 error     at handlePromise (/Users/dbarkoczi/works/monorepo-test/node_modules/@lerna/child-process/node_modules/execa/index.js:114:26)
+47 error     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+47 error     at async Promise.all (index 0)
+47 error     at async Promise.all (index 0)
