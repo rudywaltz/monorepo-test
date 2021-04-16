@@ -1,6 +1,6 @@
 {
   "packages": [
-    "projects/*"
+    "projects/rudywaltz-test-npm"
   ],
   "version": "independent",
   "command": {
