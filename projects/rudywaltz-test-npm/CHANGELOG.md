@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.4](https://github.com/rudywaltz/monorepo-test/compare/@emartech/rudywaltz-test-npm@1.2.3...@emartech/rudywaltz-test-npm@1.2.4) (2021-04-16)
+
+
+### Bug Fixes
+
+* qqq ([5e00442](https://github.com/rudywaltz/monorepo-test/commit/5e004427e459585b0b3b830705213a764622cc14))
+
+
+
+
+
 ## [1.2.3](https://github.com/rudywaltz/monorepo-test/compare/@emartech/rudywaltz-test-npm@1.2.2...@emartech/rudywaltz-test-npm@1.2.3) (2021-04-16)
 
 
