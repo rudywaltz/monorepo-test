@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/rudywaltz/monorepo-test/compare/rudywaltz-test-npm@1.1.0...rudywaltz-test-npm@1.1.1) (2021-04-16)
+
+
+### Bug Fixes
+
+* publish config ([bba6155](https://github.com/rudywaltz/monorepo-test/commit/bba6155f2879b5c73f5381bf33184cbf56a4bd6e))
+
+
+
+
+
 # 1.1.0 (2021-04-16)
 
 
