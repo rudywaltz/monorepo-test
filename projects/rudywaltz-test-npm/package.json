@@ -2,7 +2,7 @@
   "name": "rudywaltz-test-npm",
   "version": "1.1.1",
   "publishConfig": {
-    "directory": "dist"
+    "directory": "../../dist/rudywaltz-test-npm"
   },
   "peerDependencies": {
     "@angular/common": "^11.2.8",
@@ -10,5 +10,6 @@
   },
   "dependencies": {
     "tslib": "^2.0.0"
-  }
+  },
+  "gitHead": "3712464d5198b6c8d790d3c7b68169cd271f892b"
 }
