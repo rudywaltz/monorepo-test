@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'lib-rudywaltz-test-npm',
   template: `
     <p>
-      rudywaltz-test-npm works! mod
+      rudywaltz-test-npm works!
     </p>
   `,
   styles: [
