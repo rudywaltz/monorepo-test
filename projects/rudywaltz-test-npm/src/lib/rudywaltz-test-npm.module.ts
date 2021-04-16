@@ -10,7 +10,6 @@ import { RudywaltzTestNpmComponent } from './rudywaltz-test-npm.component';
   imports: [
   ],
   exports: [
-
     RudywaltzTestNpmComponent
   ]
 })
