@@ -1,6 +1,6 @@
 {
   "packages": [
-    "packages/*"
+    "projects/*"
   ],
   "version": "independent",
   "command": {
@@ -10,8 +10,5 @@
     "version": {
       "message": "chore(release): release"
     }
-  },
-  "publishConfig": {
-    "directory": "dist"
   }
 }
