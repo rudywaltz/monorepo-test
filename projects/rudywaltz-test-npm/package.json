@@ -1,6 +1,6 @@
 {
   "name": "@emartech/rudywaltz-test-npm",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "publishConfig": {
     "directory": "../../dist/rudywaltz-test-npm"
   },
